@@ -23,8 +23,9 @@ export default ({ data }: IndexPageProps) => (
         Welcome to your new <strong>{data.site.siteMetadata.title}</strong>{" "}
         site.
       </p>
-      <p>Now go build something great.</p>
-      <Link to="/page-2/">Go to page 2</Link>
+      <p>
+        Check the <Link to="/blog/">blog</Link>
+      </p>
     </div>
   </Layout>
 );
